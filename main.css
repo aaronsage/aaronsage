@@ -6,8 +6,8 @@ html {
 	text-align: center;
 	background: white;
     position: relative;
-    -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
-    animation: myfirst 5s;
+    -webkit-animation: myfirst 15s; /* Chrome, Safari, Opera */
+    animation: myfirst 15s;
 }
 
 /* Chrome, Safari, Opera */
