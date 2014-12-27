@@ -2,22 +2,31 @@ h1 {
 	font-family: Helvetica Neue;
 }
 
-div {
+html {
 	text-align: center;
-	background: pink;
-    -webkit-animation: myfirst 10s; /* Chrome, Safari, Opera */
-    animation: myfirst 10s;
+	background: red;
+    position: relative;
+    -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+    animation: myfirst 5s;
 }
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes myfirst {
-    from {background: red;}
-    to {background: yellow;}
+    0%   {background:red;}
+    25%  {background:yellow;}
+    50%  {background:blue;}
+    75%  {background:green;}
+    100% {background:red;}
 }
 
 /* Standard syntax */
 @keyframes myfirst {
-    from {background: red;}
-    to {background: yellow;}
+    0%   {background:red;}
+    25%  {background:yellow;}
+    50%  {background:blue;}
+    75%  {background:green;}
+    100% {background:red;}
 }
+
+
 </style>
