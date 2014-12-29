@@ -3,17 +3,24 @@
 html {
 	text-align: center;
 	background: white;
-    position: relative;
     -webkit-animation: myfirst 20s infinite; /* Chrome, Safari, Opera */
 }
 
 div {
-	font-family: Helvetica Neue;
-	font-style: italic;
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 	color: white;
-	font-size: 70px;
+	font-size: 30px;
 	vertical-align: center;
-	padding-top: 160px;
+}
+
+h1 {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
 }
 
 /* Chrome, Safari, Opera */
