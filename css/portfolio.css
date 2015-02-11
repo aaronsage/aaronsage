@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Oriya';
+    font-family: 'Baskerville';
     src: url('../../fonts/authentic_oriya_regular-webfont.eot');
     src: url('../../fonts/authentic_oriya_regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../../fonts/authentic_oriya_regular-webfont.woff') format('woff'),
@@ -23,7 +23,7 @@ body[data-state=invert] {
   color:#fff;}
 
 .reveal {
-  font-family: 'Oriya', sans-serif;
+  font-family: 'Baskerville', sans-serif;
   font-size: 36px;
   font-weight: normal;
   color: #000; }
@@ -47,7 +47,7 @@ body[data-state=invert] {
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
 	margin: 0;
 	color: #000;
-	font-family: 'Oriya', sans-serif;
+	font-family: 'Baskerville', sans-serif;
 	font-weight: normal;
 	line-height: 1.3;
 	letter-spacing: normal;
@@ -60,7 +60,10 @@ body[data-state=invert] {
 	max-width: 20%;
 	float: left;
 	opacity: 1;
-	text-align: left; }
+	text-align: left;
+	line-height: 40px;
+	margin-top: 60px;
+	 }
 
 body[data-state=invert] .reveal h1, body[data-state=normal] .reveal h2 {
 	color: #000;
@@ -87,6 +90,8 @@ body[data-state=invert] .reveal h1, body[data-state=invert] .reveal h2 {
 	max-width: 80%;
 	clear: right;
 	color: black;
+	line-height: 40px;
+	margin-top: 60px;
   }
 
 body[data-state=normal] .reveal p {
