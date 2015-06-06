@@ -49,7 +49,7 @@
 			controls: true,
 
 			// Display a presentation progress bar
-			progress: true,
+			//progress: true,
 
 			// Display the page number of the current slide
 			slideNumber: false,
